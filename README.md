@@ -48,23 +48,10 @@ localStorage apenas para highScore
 ├── mamute-runner-v2    # v2 polida em React (artifact gerado)
 └── README.md           # este arquivo
 O loop principal usa useRef para estado mutável e evita re-render. useState apenas para espelhar HUD.
-
-js
-player = { x, y, w:58, h:58, vy, gravity:0.68, jump:-14, ducking }
-obstacle = { x, y, w, h, emoji, isFlying, passed }
-state = { score, high, speed, maxSpeed:14, lives, invul, over, paused }
-🚀 Como rodar local
-Baixe o HTML da v2
-Abra direto no navegador com duplo clique, não precisa de servidor
-Ou sirva com: npx serve .
-🎨 Como customizar
-Trocar emojis: edite o array EMOJIS no topo do script
-Dificuldade: mude maxSpeed, nextSpawn = 60 + random*70 e gravity
-Tamanho do mamute: player.w / h e font no draw
-🗺️ Roadmap
- Power-up de coração extra ❤️‍🩹 e escudo temporário
- Ciclo dia/noite baseado no score
- Sprite sheet animado do mamute correndo em vez de emoji estático
- Leaderboard local com nome
- Modo PWA para instalar no celular
-Feito com carinho para corrigir aquele obstáculo invisível que te matava do nada. Se quiser, te entrego a v3 já com sprite e sons 8-bits 
+COMO FOI CONSTRUÍDO 🦣
+git init
+git add index.html README.md .nojekyll
+git commit -m "feat: mamute runner v2 para github pages"
+git branch -M main
+git remote add origin https://github.com/SEUUSER/mamute-runner.git
+git push -u origin main
