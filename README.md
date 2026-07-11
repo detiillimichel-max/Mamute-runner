@@ -53,5 +53,5 @@ git init
 git add index.html README.md .nojekyll
 git commit -m "feat: mamute runner v2 para github pages"
 git branch -M main
-git remote add origin https://github.com/SEUUSER/mamute-runner.git
+git remote add origin detiillimichel-max.github.io/Mamute-runner/?v3
 git push -u origin main
